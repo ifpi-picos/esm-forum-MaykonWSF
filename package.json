@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "jest testes/unidade",
+    "test:int": "jest testes/integridade"
   },
   "author": "",
   "license": "MIT",
